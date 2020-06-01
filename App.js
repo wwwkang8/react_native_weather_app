@@ -31,6 +31,7 @@ export default class extends React.Component {
       console.log(coords);
       this.getWeather(coords.latitude, coords.longitude);
       this.setState({ isLoading: false });
+      console.log(isLoading);
 
     }catch(error){
 
